@@ -16,7 +16,7 @@ class RequestSpinnerPlugin(octoprint.plugin.AssetPlugin, octoprint.plugin.Templa
 
 	def get_update_information(self):
 		return dict(
-			octobullet=dict(
+			requestspinner=dict(
 				displayName="RequestSpinner Plugin",
 				displayVersion=self._plugin_version,
 
