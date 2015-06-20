@@ -1,6 +1,8 @@
 # OctoPrint-RequestSpinner
 
-**TODO:** Describe what your plugin does.
+The Request Spinner Plugin puts a little spinner icon in the lower left corner of the OctoPrint web interface whenever
+there are active background requests via AJAX in progress. That provides a bit of feedback about how long your actions
+take to get processed by your server and gives you some more indication if stuff is actually happening or not.
 
 ## Setup
 
@@ -9,9 +11,3 @@ or manually using this URL:
 
     https://github.com/OctoPrint/OctoPrint-RequestSpinner/archive/master.zip
 
-**TODO:** Describe how to install your plugin, if more needs to be done than just installing it via pip or through
-the plugin manager.
-
-## Configuration
-
-**TODO:** Describe your plugin's configuration options (if any).
