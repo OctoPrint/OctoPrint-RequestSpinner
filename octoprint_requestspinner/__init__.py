@@ -9,7 +9,7 @@ class RequestSpinnerPlugin(octoprint.plugin.AssetPlugin, octoprint.plugin.Templa
 		return dict(
 			css=["css/requestspinner.css"],
 			js=["js/requestspinner.js"],
-			less=["js/requestspinner.less"]
+			less=["less/requestspinner.less"]
 		)
 
 	##~~ Softwareupdate hook
