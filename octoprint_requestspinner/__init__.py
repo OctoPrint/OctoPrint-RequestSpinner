@@ -26,7 +26,7 @@ class RequestSpinnerPlugin(octoprint.plugin.AssetPlugin, octoprint.plugin.Templa
 				repo="OctoPrint-RequestSpinner",
 				current=self._plugin_version,
 
-				# update method: pip w/ dependency links
+				# update method: pip
 				pip="https://github.com/OctoPrint/OctoPrint-RequestSpinner/archive/{target_version}.zip"
 			)
 		)
