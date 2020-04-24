@@ -1,5 +1,5 @@
 # coding=utf-8
-from __future__ import absolute_import
+from __future__ import absolute_import, unicode_literals
 
 import octoprint.plugin
 
@@ -32,6 +32,7 @@ class RequestSpinnerPlugin(octoprint.plugin.AssetPlugin, octoprint.plugin.Templa
 		)
 
 __plugin_name__ = "RequestSpinner"
+__plugin_pythoncompat__ = ">=2.7,<4"
 
 def __plugin_load__():
 	global __plugin_implementation__
